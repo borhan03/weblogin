@@ -1,0 +1,119 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height:24px;
+	height: 1140px; 
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: monospace;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+
+.container{
+    width: 1140px;
+    margin: 0px 0px 0px 430px;
+}
+
+.green{
+	width: 700px;
+	height: 400px;
+	background: green;
+	position: relative;
+}
+.red{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	background: red;
+	position: absolute;
+	top: 24%;
+	left: 33%;
+	z-index: 1;
+}
+.logo{
+	width: 150px;
+	height: 100px;
+	position: fixed;
+	background: #fff;
+	top: 1%;
+	left:1%;
+
+
+	
+}
+
+.fb{
+	width: 200px;
+	position: fixed;
+	top: 40%;
+	right: -167px;
+	transform: translateX(-50%,-50%);
+	transition: 1s;
+}
+
+.fb:hover{
+	right: 0px;
+}
+
+.g{
+	width: 200px;
+	position: fixed;
+	top: 32%;
+	right: -167px;
+	transform: translateX(-50%,-50%);
+	transition: 1s;
+}
+
+.g:hover{
+	right: 0px;
+}
+
+.in{
+	width: 200px;
+	position: fixed;
+	top: 25%;
+	right: -167px;
+	transform: translateX(-50%,-50%);
+	transition: 1s;
+}
+
+.in:hover{
+	right: 0px;
+}
+
+
+.social-icons{
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 20px;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a{
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 50%;
+	display: block;
+	margin:0px 10px;
+	font-size:36px; 
+	text-align: center;
+	background: #3366CC;
+    color: #fff;
+    transition: 1s;
+}
+.social-icons li a:hover{
+	background: transparent;
+    color: #3366CC;
+}
